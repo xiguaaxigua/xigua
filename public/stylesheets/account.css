@@ -1,0 +1,85 @@
+﻿.navbar-default {
+	border-color: #ececec;
+	background-color: rgba(255, 255, 255, .7);
+}
+.login-block {
+	margin-top: 130px;
+}
+
+.login-block .login-wrap {
+	margin-top: 0;
+}
+
+#btnLogin {
+	margin-top: 25px;
+}
+
+.load-item {
+	    opacity: .5;
+
+	-ms-opacity: .5;
+}
+
+.form-group-lg .form-control {
+	border-radius: 4px;
+}
+
+.login-title {
+	margin-top: 100px;
+
+	color: #fff;
+	    text-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+
+	-ms-text-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.login-wrap {
+	padding: 20px 40px;
+}
+
+.form-control {
+	    opacity: .9;
+
+	-ms-opacity: .9;
+}
+
+#progress-back {
+	top: 70px;
+}
+
+@-webkit-keyframes fadeInDownSmall {
+	0% {
+		-webkit-transform: translate3d(0, -30px, 0);
+		        transform: translate3d(0, -30px, 0);
+
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: none;
+		        transform: none;
+
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInDownSmall {
+	0% {
+		-webkit-transform: translate3d(0, -30px, 0);
+		        transform: translate3d(0, -30px, 0);
+
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: none;
+		        transform: none;
+
+		opacity: 1;
+	}
+}
+
+.fadeInDownSmall {
+	-webkit-animation-name: fadeInDownSmall;
+	        animation-name: fadeInDownSmall;
+}
